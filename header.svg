@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Jaemin Lee. Developer, founder, suit lover.">
+  <defs>
+    <pattern id="pin" width="14" height="320" patternUnits="userSpaceOnUse">
+      <rect width="14" height="320" fill="#14161A"/>
+      <line x1="7" y1="0" x2="7" y2="320" stroke="#2A2E35" stroke-width="1" stroke-dasharray="3 3"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" fill="url(#pin)"/>
+
+  <!-- lapel: a notch-lapel V drawn in thin lines, right side -->
+  <g fill="none" stroke="#C9B48A" stroke-width="2" stroke-linejoin="round" opacity="0.9">
+    <path d="M980 0 L1070 170 L1100 320"/>
+    <path d="M1240 0 L1150 170 L1120 320"/>
+    <path d="M1070 170 L1040 120 L1012 128 L980 0"/>
+    <path d="M1150 170 L1180 120 L1208 128 L1240 0"/>
+  </g>
+  <!-- two buttons -->
+  <circle cx="1110" cy="250" r="7" fill="#C9B48A"/>
+  <circle cx="1110" cy="292" r="7" fill="#C9B48A"/>
+  <!-- pocket square peeking out of the left breast pocket -->
+  <path d="M1176 214 L1196 196 L1206 214 Z" fill="#F4F1EA"/>
+  <line x1="1166" y1="214" x2="1226" y2="214" stroke="#C9B48A" stroke-width="2"/>
+
+  <text x="80" y="140" fill="#F4F1EA" font-family="Georgia, 'Times New Roman', serif" font-size="68" letter-spacing="-1">Jaemin Lee</text>
+  <text x="82" y="190" fill="#C9B48A" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30">Developer. Founder. Suit lover.</text>
+  <text x="82" y="250" fill="#9AA1AA" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="20">$ ask --verify --trade   # in a three-piece, every trading day</text>
+</svg>
