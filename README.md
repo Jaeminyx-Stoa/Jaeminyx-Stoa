@@ -6,7 +6,7 @@
 class Jaemin:
     role       = "Founder, CEO & CTO @ Quantus"
     location   = "Seoul, Korea"
-    stack      = ["Python", "FastAPI", "TypeScript", "Docker", "Azure"]
+    stack      = ["Claude Code", "Codex", "pure vibes"]  # super vibe coder
     dress_code = "suit. yes, even while debugging."
 
     def currently(self):
