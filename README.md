@@ -28,6 +28,7 @@ class Jaemin:
 #### 🛠 Things I open-sourced
 
 - [**sumbi**](https://github.com/Jaeminyx-Stoa/sumbi): a self-improving harness for coding agents. Measures friction, keeps what works.
+- [**pykbroker**](https://github.com/STOA-company/pykbroker): one Python interface for Korean brokers (KIS, DB, Toss, Kiwoom, NH), fail-closed safety, read-only-by-default MCP server (early alpha)
 - [**pycex**](https://github.com/STOA-company/pycex): one typed, async-first Python API for 7 crypto exchanges (Binance, Bybit, OKX, Upbit and more), with an MCP server
 - [**pydbsec**](https://github.com/Jaeminyx-Stoa/pydbsec) · [**pykiwoom**](https://github.com/Jaeminyx-Stoa/pykiwoom): Python wrappers for Korean broker APIs (DB Securities, Kiwoom)
 
