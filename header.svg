@@ -1,27 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Jaemin James Lee. Developer, founder, suit lover.">
+  <!-- Quantus colour scheme (LinkedIn banner v3): #0B0C0E base, #3FA36F accent, #9AA1AA text, green glow on the right -->
   <defs>
     <pattern id="pin" width="14" height="320" patternUnits="userSpaceOnUse">
-      <rect width="14" height="320" fill="#14161A"/>
-      <line x1="7" y1="0" x2="7" y2="320" stroke="#2A2E35" stroke-width="1" stroke-dasharray="3 3"/>
+      <rect width="14" height="320" fill="#0B0C0E"/>
+      <line x1="7" y1="0" x2="7" y2="320" stroke="#16191D" stroke-width="1" stroke-dasharray="3 3"/>
     </pattern>
+    <radialGradient id="glow" cx="1110" cy="170" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2E7550" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0B0C0E" stop-opacity="0"/>
+    </radialGradient>
   </defs>
   <rect width="1280" height="320" fill="url(#pin)"/>
+  <rect width="1280" height="320" fill="url(#glow)"/>
 
   <!-- lapel: a notch-lapel V drawn in thin lines, right side -->
-  <g fill="none" stroke="#C9B48A" stroke-width="2" stroke-linejoin="round" opacity="0.9">
+  <g fill="none" stroke="#3FA36F" stroke-width="2" stroke-linejoin="round" opacity="0.85">
     <path d="M980 0 L1070 170 L1100 320"/>
     <path d="M1240 0 L1150 170 L1120 320"/>
     <path d="M1070 170 L1040 120 L1012 128 L980 0"/>
     <path d="M1150 170 L1180 120 L1208 128 L1240 0"/>
   </g>
   <!-- two buttons -->
-  <circle cx="1110" cy="250" r="7" fill="#C9B48A"/>
-  <circle cx="1110" cy="292" r="7" fill="#C9B48A"/>
+  <circle cx="1110" cy="250" r="7" fill="#3FA36F"/>
+  <circle cx="1110" cy="292" r="7" fill="#3FA36F"/>
   <!-- pocket square peeking out of the left breast pocket -->
-  <path d="M1176 214 L1196 196 L1206 214 Z" fill="#F4F1EA"/>
-  <line x1="1166" y1="214" x2="1226" y2="214" stroke="#C9B48A" stroke-width="2"/>
+  <path d="M1176 214 L1196 196 L1206 214 Z" fill="#FFFFFF"/>
+  <line x1="1166" y1="214" x2="1226" y2="214" stroke="#3FA36F" stroke-width="2"/>
 
-  <text x="80" y="140" fill="#F4F1EA" font-family="Georgia, 'Times New Roman', serif" font-size="68" letter-spacing="-1">Jaemin James Lee</text>
-  <text x="82" y="190" fill="#C9B48A" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30">Developer. Founder. Suit lover.</text>
-  <text x="82" y="250" fill="#9AA1AA" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="20">$ ask --verify --trade   # in a three-piece, every trading day</text>
+  <g font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif">
+    <text x="78" y="138" fill="#FFFFFF" font-size="72" font-weight="800" letter-spacing="-2.5">Jaemin James Lee</text>
+    <text x="80" y="190" fill="#9AA1AA" font-size="30" font-weight="600" letter-spacing="-0.5">Developer. Founder. <tspan fill="#3FA36F" font-weight="800">Suit lover.</tspan></text>
+  </g>
+  <text x="80" y="250" fill="#9AA1AA" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="20">$ ask --verify --trade   # in a three-piece, every trading day</text>
 </svg>
