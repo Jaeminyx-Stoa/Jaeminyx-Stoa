@@ -1,4 +1,4 @@
-<p align="center"><img src="header.svg" width="100%" alt="Jaemin Lee. Developer, founder, suit lover."></p>
+<p align="center"><img src="header.svg" width="100%" alt="Jaemin James Lee. Developer, founder, suit lover."></p>
 
 ### Hey, I'm Jaemin 👋
 
