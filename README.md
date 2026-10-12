@@ -10,7 +10,7 @@ class Jaemin:
     dress_code = "three piece suit. yes, even while debugging."
 
     def currently(self):
-        return "teaching an AI agent to place real orders, safely"
+        return "I say it, agents code it, I review it in a three piece suit"
 
     def debug(self):
         return "tie loosened, never removed"
