@@ -1,38 +1,35 @@
 <p align="center"><img src="header.svg" width="100%" alt="Jaemin Lee. Developer, founder, suit lover."></p>
 
-### Hi, I'm Jaemin (James) Lee.
+### Hey, I'm Jaemin 👋
 
-Developer, founder of [Quantus](https://www.quantus.kr), and a suit lover.
+```python
+class Jaemin:
+    role       = "Founder, CEO & CTO @ Quantus"
+    location   = "Seoul 🇰🇷"
+    stack      = ["Python", "FastAPI", "TypeScript", "Docker", "Azure"]
+    dress_code = "suit. yes, even while debugging."
 
-I write code that places real orders in real brokerage accounts, and I usually write it in a suit. The reason is the same for both. When real money depends on your work, you show up pressed.
+    def currently(self):
+        return "teaching an AI agent to place real orders, safely"
 
-### What I'm building
+    def debug(self):
+        return "tie loosened, never removed"
+```
 
-**Quantus** turns an investment decision into a rule, checks it against history, and places the orders in the customer's own brokerage account. We never hold client assets.
+- 🏦 Building **[Quantus](https://www.quantus.kr)**: say a trading rule in plain words, check it against price data back to 1964, then run it in *your own* brokerage account. 33 months live, USD 821M executed so far.
+- 🤖 Working on **Q**, the AI agent on top of it (beta).
+- 👔 Fun fact: I code in a suit. Real money runs on this code, so I dress for it.
+- 🧵 Rules I stole from my tailor:
+  - *measure twice, cut once* → backtest before the first order goes out
+  - *no loose threads* → duplicate-order guards, audit logs, a kill switch
+  - *fit over fashion* → boring tools that work
+- 🎓 Before this: sequence-data AI at Riiid, Nexon and Kakao Style, then quant work. PhD candidate at Sungkyunkwan University.
 
-- 33 months of live execution, USD 821M executed in customers' own accounts (public metric, September 2026)
-- Price data since 1964, with delisted companies kept, so a backtest cannot flatter itself
-- **Q**, an AI agent that turns plain words into a rule you can verify and run (beta)
+#### 🛠 Things I open-sourced
 
-### Tailoring notes
+- [**sumbi**](https://github.com/Jaeminyx-Stoa/sumbi): a self-improving harness for coding agents. Measures friction, keeps what works.
+- [**pydbsec**](https://github.com/Jaeminyx-Stoa/pydbsec) · [**pykiwoom**](https://github.com/Jaeminyx-Stoa/pykiwoom): Python wrappers for Korean broker APIs (DB Securities, Kiwoom)
 
-| In the fitting room | In the codebase |
-|---|---|
-| Measure twice, cut once | Backtest on point-in-time data before a single order goes out |
-| No loose threads | Duplicate-order guards, audit trails, an emergency stop |
-| Fit over fashion | Proven tools over new ones |
-| Pressed every morning | Runs every trading day; failover in 1.5 to 2.5 seconds |
-
-### Background
-
-Sequence-data AI at Riiid, Nexon and Kakao Style, then quant work at IntelliQuant and Quarterback AM. Founded Quantus in 2022. PhD candidate in Electrical and Computer Engineering, Sungkyunkwan University.
-
-### Open source
-
-- [sumbi](https://github.com/Jaeminyx-Stoa/sumbi): a self-improving harness for coding agents. Measure friction, judge by outcomes, keep what proves itself.
-- [pydbsec](https://github.com/Jaeminyx-Stoa/pydbsec): Python wrapper for the DB Securities OpenAPI
-- [pykiwoom](https://github.com/Jaeminyx-Stoa/pykiwoom): Python wrapper for the Kiwoom Securities REST API
-
-### Find me
+#### 📫 Say hi
 
 [quantus.kr](https://www.quantus.kr) · [LinkedIn](https://www.linkedin.com/in/jaemin-james-lee-98769b130/)
