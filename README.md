@@ -5,7 +5,7 @@
 ```python
 class Jaemin:
     role       = "Founder, CEO & CTO @ Quantus"
-    location   = "Seoul 🇰🇷"
+    location   = "Seoul, Korea"
     stack      = ["Python", "FastAPI", "TypeScript", "Docker", "Azure"]
     dress_code = "suit. yes, even while debugging."
 
